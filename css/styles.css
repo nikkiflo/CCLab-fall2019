@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #DCE0DE;
+}
+
+h2 {
+    width: 100vw;
+    font-family: hobeaux-rococeaux-background, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48pt;
+    color: #B8A9C2;
+    text-align: center;
+    position: absolute;
+    bottom: 3vh;
+    animation: swipeUp 2s linear 0s infinite;
+}
+
+
+@keyframes swipeUp {
+	0% {
+        bottom: 3vh;
+    }
+
+	32% {
+        bottom: 3vh;
+	}
+
+	60% {
+        bottom: 4vh;
+    }
+
+    100% {
+        bottom: 3vh;
+    }
+
+}
+
+
+p {
+    width: 100vw;
+    position: absolute;
+    top: 16vh;
+    text-align: center;
+    font-size: 11pt;
+    color: #A6A3A1;
+    font-family: covik-sans-mono, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    animation: flicker1 16s linear 0s infinite;
+}
+
+
+@keyframes flicker1 {
+	0% {
+	opacity: 0;
+	}
+
+	8% {
+	opacity: 0;
+	}
+
+	42% {
+	opacity: 1;
+	}
+
+	72% {
+        opacity: 1;
+	}
+
+	85% {
+	opacity: 0;
+	}
+
+
+	86% {
+	opacity: 0;
+	}
+
+	87% {
+        opacity: 0.7;
+	}
+
+	89% {
+        opacity: 0.8;
+	}
+
+	94% {
+	opacity: 0;
+	}
+
+	96% {
+        opacity: 0;
+	}
+
+	100% {
+        opacity: 1;
+	}
+}
+
+#note {
+    animation: flicker2 16s linear 0s infinite;
+}
+
+@keyframes flicker2 {
+	0% {
+		opacity: 0;
+	}
+
+	21% {
+		opacity: 0;
+	}
+
+	56% {
+		opacity: 1;
+    }
+
+}
+
+
+#askBlock {
+    width: 100vw;
+    position: absolute;
+    top: 40vh;
+    display: block;
+    text-align: center;
+    font-size: 14pt;
+    color: #735A7A;
+    font-family: covik-sans-mono, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+input{
+    margin: 10px;
+    width: 12vw;
+    padding: 8px 16px;
+    border: 2px solid #C6CDD1;
+    border-radius: 8px;
+    background-color: #DCE0DE;
+    box-sizing: border-box;
+    font-size: 14pt;
+    color: #735A7A;
+    font-family: covik-sans-mono, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+button {
+    margin: 10px;
+    border: 2px solid #C6CDD1;
+    border-radius: 8px;
+    background-color: #DCE0DE;
+    padding: 8px 16px;
+    font-size: 11pt;
+    color: #735A7A;
+    font-family: covik-sans-mono, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*
+    color reference:
+    https://www.design-seeds.com/winter-issue-no-3/cabin/
+ */
