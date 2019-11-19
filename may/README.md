@@ -1,7 +1,7 @@
-## LINKS
-### [P5 Sketches](https://github.com/maydeyn/p5-sketches)
-
-### [P5 Weather API for a non-human: Live Weather Updates for Charmander's Adventure in New York](https://github.com/maydeyn/live-weather-for-charmander)
+## LINKS to personal github repo (might be easier to access)
+### [P5 Sketches: Github Repo](https://github.com/maydeyn/p5-sketches)
+### [P5 Weather API for a non-human: Github Repo](https://github.com/maydeyn/live-weather-for-charmander)
+### [P5 Weather API for a non-human: Presentation](https://docs.google.com/presentation/d/1lsb-Ou1wG02o6O4oDlRL3ifBM5ndhPwRYbdq9bnGz94/edit?usp=sharing)
 #### The weather reporting interface will tell Charmander whether it’s safe to go out or not based on the current humidity level and weather condition in New York.
 #### It also tells Charmander the current temperature outside in Celsius (Yeah he uses metric system)
 
