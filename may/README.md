@@ -1,4 +1,4 @@
-## LINKS to personal github repo (might be easier to access)
+## LINKS to github repo (might be easier to access)
 ### [P5 Sketches: Github Repo](https://github.com/maydeyn/p5-sketches)
 ### [P5 Weather API for a non-human: Github Repo](https://github.com/maydeyn/live-weather-for-charmander)
 ### [P5 Weather API for a non-human: Presentation](https://docs.google.com/presentation/d/1lsb-Ou1wG02o6O4oDlRL3ifBM5ndhPwRYbdq9bnGz94/edit?usp=sharing)
