@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+    background: black;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS */
+@font-face {
+    font-family: "Clifton";
+    src: url("/resources/fonts/CliftonTrial-Italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Favorit";
+    src: url("/resources/fonts/FavoritLiningTrial-Light.woff") format("woff");
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.overlay .video1,
+.overlay .video2,
+.overlay .video3 {
+    display: none;
+    z-index: 100;
+    position: fixed;
+    mix-blend-mode: color-dodge;
+}
+
+#stats {
+    width: 100vw;
+    height: 95vh;
+    padding: 24px;
+}
+
+#status {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    padding: 24px;
+    color: red;
+    /* z-index: 999; */
+    display: block;
+    font-size: 10vw;
+    font-family: "Clifton";
+}
+
+ul li {
+    color: white;
+    display: block;
+    font-size: 3vw;
+    font-family: "Favorit";
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
